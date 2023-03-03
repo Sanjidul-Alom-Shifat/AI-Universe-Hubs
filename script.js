@@ -106,7 +106,7 @@ const DisplayLoadToolsDetails = (data) => {
     const inputOutput = document.getElementById('input-output');
     inputOutput.innerHTML = `
         <h3 class="text-center">${data.input_output_examples===null? 'No input found. Can you give any example?': data.input_output_examples[0].input}</h3>
-        <h6 class="text-center">${data.input_output_examples===null ?'No output found': data.input_output_examples[0].output }</h6>
+        <h6 class="text-center">${data.input_output_examples===null ?'No output found. No! Not Yet! Take a break!!!': data.input_output_examples[0].output }</h6>
     `
 }
 
