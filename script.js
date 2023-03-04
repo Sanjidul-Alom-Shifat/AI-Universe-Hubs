@@ -88,6 +88,7 @@ const DisplayLoadToolsDetails = (data) => {
         <li>${data.features ? data.features["1"].feature_name : 'No Features Name'}</li>
         <li>${data.features ? data.features["2"].feature_name : 'No Features Name'}</li>
         <li>${data.features ? data.features["3"].feature_name : 'No Features Name'}</li>
+	<li>${data.features ? data.features["4"].feature_name : 'No Features Name'}</li>
     `
     const accuracy = document.getElementById('accuracy');
     accuracy.innerHTML = `
@@ -102,6 +103,7 @@ const DisplayLoadToolsDetails = (data) => {
         <li>${(data.integrations === null || data.integrations[0]===undefined)? 'No data found' : data.integrations[0]}</li>
         <li>${(data.integrations === null || data.integrations[1]===undefined)? 'No data found' : data.integrations[1]}</li>
         <li>${(data.integrations === null || data.integrations[2]===undefined)? 'No data found' : data.integrations[2]}</li>
+	<li>${(data.integrations === null || data.integrations[3]===undefined)? 'No data found' : data.integrations[3]}</li>
     `
     const inputOutput = document.getElementById('input-output');
     inputOutput.innerHTML = `
