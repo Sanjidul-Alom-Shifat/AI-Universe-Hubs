@@ -88,6 +88,7 @@ const DisplayLoadToolsDetails = (data) => {
         <li>${data.features ? data.features["1"].feature_name : 'No Features Name'}</li>
         <li>${data.features ? data.features["2"].feature_name : 'No Features Name'}</li>
         <li>${data.features ? data.features["3"].feature_name : 'No Features Name'}</li>
+	<li>${data.features ? data.features["4"].feature_name : 'No Features Name'}</li>
     `
     const accuracy = document.getElementById('accuracy');
     accuracy.innerHTML = `
