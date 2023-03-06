@@ -32,7 +32,7 @@ const DisplayLoadTools = (details) => {
                 <p class="card-text fw-semibold text-secondary">1. ${features[0]}</p>
                 <p class="card-text fw-semibold text-secondary">2. ${features[1]}</p>
                 <p class="card-text fw-semibold mb-4 text-secondary">3. ${features[2] ? features[2] : 'There are no feature'}</p>
-		<p class="card-text fw-semibold mb-4 text-secondary">3. ${features[3] ? features[3] : 'There are no feature'}</p>
+		<p class="card-text fw-semibold mb-4 text-secondary">4. ${features[3] ? features[3] : 'There are no feature'}</p>
                 <hr>
                 <h5 class="card-title fw-bold">${name}</h5>
                 <div class="d-flex align-items-center justify-content-between">
